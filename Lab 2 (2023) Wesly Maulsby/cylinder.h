@@ -4,9 +4,12 @@
 class Cylinder
 {
 public:
+	//constructor
 	Cylinder();
+	//destructor
 	~Cylinder();
 
+	//public functions
 	void setRadius(float radius_);
 	float getRadius();
 	void setHeight(float height_);
@@ -15,6 +18,7 @@ public:
 	float getSurfaceArea();
 
 private:
+	//private values
 	float radius;
 	float height;
 	float volume;

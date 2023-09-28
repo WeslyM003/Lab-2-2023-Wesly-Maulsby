@@ -12,10 +12,14 @@ by making a program that calculates the volume of a cylinder with hardcoded valu
 
 int main()
 {
+	//creates object c
 	Cylinder c;
+	
+	//sets hardcoded values
 	c.setRadius(2.0);
 	c.setHeight(2.0);
 
+	//outputs values
 	std::cout << "Radius: " << c.getRadius() << std::endl;
 	std::cout << "Height: " << c.getHeight() << std::endl;
 	std::cout << "Volume: " << c.getVolume() << std::endl;
